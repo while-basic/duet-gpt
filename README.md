@@ -1,10 +1,6 @@
 # DuetGPT
 
-<p align="center">
-   <img alt="Intro video" src="https://github.com/kristoferlund/duet-gpt/blob/main/media/intro-video.gif?raw=true" >
-<p>
-
-**👆 Example: Creating a node.js app that draws a sine wave using DuetGPT**
+Example: Creating a node.js app that draws a sine wave using DuetGPT
 
 Tired of copypasting code from ChatGPT? DuetGPT is an experimental AI powered CLI tool that helps developers perform tasks. The developer presents tasks to the AI, who then provides BashCommands, ReplaceCommands or follow-up Questions for clarification. The developer follows the commands given by the AI to perform the requested tasks.
 
@@ -32,22 +28,6 @@ duet-gpt
 
 You will be prompted to enter your OpenAI API key. You can find your API key on the [OpenAI dashboard](https://platform.openai.com/account/api-keys).
 
-```bash
-     _            _              _   
-    | |          | |            | |  
-  __| |_   _  ___| |_ __ _ _ __ | |_ 
- / _` | | | |/ _ \ __/ _` | '_ \| __|
-| (_| | |_| |  __/ || (_| | |_) | |_ 
- \__,_|\__,_|\___|\__\__, | .__/ \__|
-                      __/ | |        
-                     |___/|_|        
-  
-┌  DuetGPT
-│
-◆  Please enter your OpenAI API key:
-│  sk-XXX…
-└
-```
 
 ## Setup for development
 
@@ -160,19 +140,3 @@ For the purposes of illustrating how interactions work, I chose a super simple t
 ## Known issues
 
 - When proposing changes to large files, the AI may return incomplete results. The gpt-4 context window is limited, DuetGPT works best with small files - one function per file is ideal.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## Contact
-
-If you have any questions, please feel free to reach out to me!
-
-- [kristofer@fmckl.se](mailto:kristofer@fmckl.se)
-- Twitter: [@kristoferlund](https://twitter.com/kristoferlund)
-- Discord: kristofer#1475
-
-## License
-
-[MIT](LICENSE)
